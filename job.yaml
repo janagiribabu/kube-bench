@@ -34,7 +34,7 @@ spec:
               mountPath: /lib/systemd/
               readOnly: true
             - name: srv-kubernetes
-              mountPath: /srv/kubernetes/
+              mountPath: /tmp/kubernetes/
               readOnly: true
             - name: etc-kubernetes
               mountPath: /etc/kubernetes
